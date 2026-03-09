@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title>Project</title>
+</head>
+<body>
+    <form action="">
+     <h2>SCHOOL ADMISSION FORM</h2>
+      <!--students information start here  -->
+      <fieldset>
+        <legend>Student Information</legend>
+        <label for="na">First Name:</label><br>
+        <input type="text" id="na"><br><br>
+
+        <label for="la">Last Name:</label><br>
+        <input type="text" id="la"><br><br>
+
+        <label for="da">Date of Birth:</label><br>
+        <input type="date" id="da"><br><br>
+
+        <p>Gender:</p>
+        <label for="ma">male</label>
+        <input type="radio" id="ma" name="gender">
+        <label for="fe">female</label>
+        <input type="radio" id="fe" name="gender">
+      </fieldset>
+      <!-- student information end here -->
+
+      <!-- contact infformation start here -->
+       <fieldset>
+
+        <legend>Contact Information</legend>
+        <label for="em">Email:</label><br>
+        <input type="email" id="em"><br><br>
+
+        <label for="pn">Phone Number:</label><br>
+        <input type="tel" id="pn"><br><br>
+
+        <label for="ad">Home Address:</label><br>
+        <textarea name="address" id="ad" cols="40"></textarea>
+
+       </fieldset>
+       <!-- contact information end here -->
+
+       <!-- academic details start here -->
+        <fieldset>
+
+            <legend>Academic Information</legend><br>
+
+            <label for="gr">Grade Applying For:</label><br>
+
+            <select name="" id="">
+                <option value="" disabled selected>--Select Grade--</option> 
+                <option value="Nursery">Nursery</option>
+                <option value="Kindergarten">Kindergarten</option>
+                <option value="grade 1">Grade 1</option>
+                <option value="grade 2">Grade 2</option>
+                <option value="grade 3">Grade 3</option>
+                <option value="grade 4">Grade 4</option>
+                <option value="grade 5">Grade 5</option>
+                <option value="grade 6">Grade 6</option>
+                <option value="grade 7">Grade 7</option>
+                <option value="grade 8">Grade 8</option>
+                <option value="grade 9">Grade 9</option>
+                <option value="grade 10">Grade 10</option>
+                <option value="grade 11">Grade 11</option>
+                <option value="grade 12">Grade 12</option>
+            </select><br><br>
+
+            <label for="ps">Previous School:</label><br>
+            <input type="text" id="ps"><br><br>
+
+            <p>Subject Interested In:</p>
+            <input type="checkbox" id="math">
+            <label for="math">Math</label><br>
+
+            <input type="checkbox" id="science">
+            <label for="science">Science</label><br>
+
+            <input type="checkbox" id="computer">
+            <label for="computer">Computer</label><br>
+
+            <input type="checkbox" id="art">
+            <label for="art">Arts</label>
+
+        </fieldset>
+        <!-- academic details end here -->
+
+        <!-- Parent/Guardian information start here -->
+
+        <fieldset>
+            <legend>Parent/Guardian Information:</legend>
+
+            <label for="p name">Full Name:</label><br>
+            <input type="text" id="p name"><br><br>
+
+            <label for="relation">Relationship to Student:</label><br>
+            <input type="text" id="relation"><br><br>
+
+            <label for="p phone">Phone Number:</label><br>
+            <input type="tel" id="p phone"><br><br>
+
+        </fieldset>
+        <!-- Parent/Guardian information end here -->
+
+        <!-- footer start here -->
+         <label for="photo">Upload Student Photo: </label><br>
+         <input type="file" id="photo"><br><br>
+
+         <input type="checkbox" id="agreement">
+         <label for="agreement">I confirm that the information is true and accurate.</label><br><br>
+
+         <input type="submit" value="Submit Application">
+         <input type="reset" value="Reset Form"><br>
+
+        <!-- footer end here -->
+
+    </form>
+</body>
+</html>
